@@ -1,0 +1,6 @@
+{
+    "python.autoComplete.extraPaths": [
+        "./Python"
+    ],
+}
+//le estamos diciendo a nuestro editor de código que todos nuestros archivos de Python van a estar dentro de la carpeta Python, por tanto, él sabrá que cualquier módulo deberá leerlo desde esa carpeta, y no desde la carpeta raíz,

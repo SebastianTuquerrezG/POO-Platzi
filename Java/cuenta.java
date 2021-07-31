@@ -1,4 +1,4 @@
-public class cuenta {
+public class Cuenta {
     Integer id;
     String name;
     String document;

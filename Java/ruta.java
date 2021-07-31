@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ruta {
+public class Ruta {
     Integer id;
     ArrayList<Double> start;
     ArrayList<Double> end;

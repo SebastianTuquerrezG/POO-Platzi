@@ -5,4 +5,9 @@ public class Cuenta {
     String email;
     String password;
     Integer number;
+
+    public Cuenta(String name, String document){
+        this.name = name;
+        this.document = document;
+    }
 }

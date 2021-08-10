@@ -1,5 +1,5 @@
 <?php
-class cuenta {
+class pagos {
     public $id;
     public $monto;
 }

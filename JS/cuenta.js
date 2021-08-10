@@ -1,8 +1,10 @@
-function Cuenta(name, document) {
+class Cuenta {
+    constructor(name, document){
     this.id;
     this.name = name;
     this.document = document;
     this.email;
     this.password;
     this.number;
+    }
 }

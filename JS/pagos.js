@@ -1,4 +1,6 @@
-function pagos(){
+class pagos{
+    constructor(){
     this.id;
     this.monto;
+    }
 }

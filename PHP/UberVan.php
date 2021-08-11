@@ -1,4 +1,5 @@
 <?php
+require_once('uber_cars.php');
 class UberVan extends uber_cars {
     public $typeCarAccepted;
     public $material;

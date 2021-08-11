@@ -1,5 +1,5 @@
 <?php
-require_once('cuenta.php')
+require_once('cuenta.php');
 class uber_cars {
     public $id;
     public $license;

@@ -12,3 +12,4 @@ class cuenta {
     $this->document = $document;
     }
 }
+?>

@@ -1,10 +1,10 @@
 class Cuenta {
-    constructor(name, document){
-    this.id;
+    constructor(id, name, document, email, password, number){
+    this.id = id;
     this.name = name;
     this.document = document;
-    this.email;
-    this.password;
-    this.number;
+    this.email = email;
+    this.password = password;
+    this.number = number;
     }
 }

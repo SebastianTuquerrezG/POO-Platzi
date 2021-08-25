@@ -9,5 +9,13 @@ class UberX extends uber_cars {
         $this->marca = $marca;
         $this->modelo = $modelo;
     }
+
+    public function PrintDataCar(){
+        parent::PrintDataCar();
+        echo"
+        Modelo: $this->modelo
+        Marca: $this->marca
+        ";
+    }
 }
 ?>

@@ -6,6 +6,11 @@ class UberX extends Uber_cars {
         super(license, driver);
         this.marca = marca;
         this.model = model;
-
+    }
+    
+    @Override
+    void printDataCars() {
+        super.printDataCars();
+        System.out.println("Marca" + marca + "modelo" + model);
     }
 }
